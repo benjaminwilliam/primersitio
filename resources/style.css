@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Set up 12-col grid */
+
+.grid-wrapper {
+  grid-template-columns: repeat(12, 100px);
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+}
+
+/* Navigation/Header */
+
+.masthead {
+  background-color: #333;
+  color: #fff;
+  padding: .5rem 1rem;
+}
+
+.masthead-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: .5rem;
+}
+
+a:hover {
+  color: gray;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
